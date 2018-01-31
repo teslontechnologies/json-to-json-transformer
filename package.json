@@ -1,6 +1,6 @@
 {
-  "name": "qewd-transform-json",
-  "version": "1.9.1",
+  "name": "json-to-json-transformer",
+  "version": "1.0.0",
   "description": "Module for transforming JSON via a template",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robtweed/qewd-transform-json.git"
+    "url": "git+https://github.com/theleapofcode/json-to-json-transformer"
   },
   "dependencies": {
     "traverse": ""
   },
-  "author": "Rob Tweed, M/Gateway Developments Ltd",
+  "author": "TheLeapOfCode",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/robtweed/qewd-transform-json/issues"
+    "url": "https://github.com/theleapofcode/json-to-json-transformer/issues"
   },
-  "homepage": "https://github.com/robtweed/qewd-transform-json#readme"
+  "homepage": "https://github.com/theleapofcode/json-to-json-transformer#readme"
 }

@@ -1,29 +1,21 @@
-# qewd-transform-JSON: Transform JSON using a template
- 
-Rob Tweed <rtweed@mgateway.com>  
-25 January 2017, M/Gateway Developments Ltd [http://www.mgateway.com](http://www.mgateway.com)  
+# json-to-json-transformer: Transform JSON using a template
 
-Twitter: @rtweed
-
-Google Group for discussions, support, advice etc: [http://groups.google.co.uk/group/enterprise-web-developer-community](http://groups.google.co.uk/group/enterprise-web-developer-community)
-
-Special thanks to the Ripple Foundation [http://rippleosi.org  ](http://rippleosi.org) for
-support and funding of this project.
+Forked from [https://github.com/robtweed/json-to-json-transformer] and added support for Node 4.x
 
 ## Installing
 
-       npm install qewd-transform-JSON
+       npm install json-to-json-transformer
 	   
-## Using qewd-transform-json
+## Using json-to-json-transformer
 
 ### Simple Transformations
 
-  *qewd-transform-json* is a simple, yet powerful way of transforming JSON from one format to another. 
+  *json-to-json-transformer* is a simple, yet powerful way of transforming JSON from one format to another. 
 
   The use case for which it's designed is where you're doing repetitive processing that involves 
   instances of a particular JSON document format being converted into some other JSON format.
 
-  *qewd-transform-json* takes an instance of an input JavaScript object, and transforms it to a new output
+  *json-to-json-transformer* takes an instance of an input JavaScript object, and transforms it to a new output
   JavaScript object, using rules defined in a template object.  
 
   For example, the input object might look like this:
@@ -60,7 +52,7 @@ support and funding of this project.
 
   The module's *transform()* function is then used to create the output object, eg
 
-      var transform = require('qewd-transform-json').transform;
+      var transform = require('json-to-json-transformer').transform;
       var newObj = transform(templateObj, inputObj);
 
   The output would be:
@@ -374,26 +366,3 @@ This would produce the following output object:
           }
         ]
       }
-
-
-## License
-
- Copyright (c) 2017 M/Gateway Developments Ltd,                           
- Redhill, Surrey UK.                                                      
- All rights reserved.                                                     
-                                                                           
-  http://www.mgateway.com                                                  
-  Email: rtweed@mgateway.com                                               
-                                                                           
-                                                                           
-  Licensed under the Apache License, Version 2.0 (the "License");          
-  you may not use this file except in compliance with the License.         
-  You may obtain a copy of the License at                                  
-                                                                           
-      http://www.apache.org/licenses/LICENSE-2.0                           
-                                                                           
-  Unless required by applicable law or agreed to in writing, software      
-  distributed under the License is distributed on an "AS IS" BASIS,        
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
-  See the License for the specific language governing permissions and      
-   limitations under the License.      
