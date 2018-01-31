@@ -1,6 +1,6 @@
 # json-to-json-transformer: Transform JSON using a template
 
-Forked from [https://github.com/robtweed/json-to-json-transformer] and added support for Node 4.x
+Forked from [https://github.com/robtweed/qewd-transform-json] and added support for Node 4.x
 
 ## Installing
 
