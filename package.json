@@ -11,7 +11,8 @@
     "url": "git+https://github.com/theleapofcode/json-to-json-transformer"
   },
   "dependencies": {
-    "traverse": ""
+    "traverse": "",
+    "lodash": "^4.17.21"
   },
   "author": "TheLeapOfCode",
   "license": "Apache-2.0",
